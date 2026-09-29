@@ -24,15 +24,15 @@
     "meta": {
       "title": "error-correction-takeda",
       "logo": "file:../logos/block-logo.png",
-      "url": "https://github.com/platforma-open/platforma-aria.test",
+      "url": "https://github.com/oneTakeda/11514-platforma-blocks-error-correction-takeda",
       "support": "mailto:support@milaboratories.com",
-      "description": "Custom block built for error correction based on grouping sequences based off length, and for each sequence looking at more abundant sequences of the same length.",
+      "description": "Custom block built for error correction based on grouping sequences based off length, and looking at abundant sequences of the same length.",
       "longDescription": "file:../docs/description.md",
       "changelog": "file:../CHANGELOG.md",
       "tags": ["tutorial"],
       "organization": {
-        "name": "MiLaboratories Inc",
-        "url": "https://milaboratories.com/",
+        "name": "Takeda",
+        "url": "https://www.takeda.com/",
         "logo": "file:../logos/organization-logo.png"
       }
     }
