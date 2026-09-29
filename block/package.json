@@ -26,7 +26,7 @@
       "logo": "file:../logos/block-logo.png",
       "url": "https://github.com/platforma-open/platforma-aria.test",
       "support": "mailto:support@milaboratories.com",
-      "description": "Simple Hello World block that can be used as a boilerplate for newly created blocks.",
+      "description": "Custom block built for error correction based on grouping sequences based off length, and for each sequence looking at more abundant sequences of the same length.",
       "longDescription": "file:../docs/description.md",
       "changelog": "file:../CHANGELOG.md",
       "tags": ["tutorial"],
