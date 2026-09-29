@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-aria/platforma-aria.error-correction-aria",
+  "name": "@platforma-takeda/takeda.error-correction-takeda",
   "version": "1.0.0",
   "scripts": {
     "build": "shx rm -rf ./block-pack && block-tools pack",
@@ -13,15 +13,15 @@
   ],
   "dependencies": {
     "@platforma-sdk/model": "catalog:",
-    "@platforma-aria/platforma-aria.error-correction-aria.workflow": "workspace:*",
-    "@platforma-aria/platforma-aria.error-correction-aria.model": "workspace:*",
-    "@platforma-aria/platforma-aria.error-correction-aria.ui": "workspace:*"
+    "@platforma-takeda/takeda.error-correction-takeda.workflow": "workspace:*",
+    "@platforma-takeda/takeda.error-correction-takeda.model": "workspace:*",
+    "@platforma-takeda/takeda.error-correction-takeda.ui": "workspace:*"
   },
   "block": {
     "components": {
-      "workflow": "@platforma-aria/platforma-aria.error-correction-aria.workflow/dist/tengo/tpl/main.plj.gz",
-      "model": "@platforma-aria/platforma-aria.error-correction-aria.model/dist/model.json",
-      "ui": "@platforma-aria/platforma-aria.error-correction-aria.ui/dist"
+      "workflow": "@platforma-takeda/takeda.error-correction-takeda.workflow/dist/tengo/tpl/main.plj.gz",
+      "model": "@platforma-takeda/takeda.error-correction-takeda.model/dist/model.json",
+      "ui": "@platforma-takeda/takeda.error-correction-takeda.ui/dist"
     },
     "meta": {
       "title": "error-correction-takeda",

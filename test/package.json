@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-aria/platforma-aria.error-correction-aria.test",
+  "name": "@platforma-takeda/takeda.error-correction-takeda.test",
   "version": "1.0.0",
   "private": true,
   "description": "Block tests",
@@ -10,7 +10,7 @@
     "test": "vitest --passWithNoTests"
   },
   "dependencies": {
-    "this-block": "workspace:@platforma-aria/platforma-aria.error-correction-aria@*"
+    "this-block": "workspace:@platforma-takeda/takeda.error-correction-takeda@*"
   },
   "devDependencies": {
     "@platforma-sdk/test": "catalog:"

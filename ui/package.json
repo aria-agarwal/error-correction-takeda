@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-aria/platforma-aria.error-correction-aria.ui",
+  "name": "@platforma-takeda/takeda.error-correction-takeda.ui",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@milaboratories/uikit": "2.11.9",
-    "@platforma-aria/platforma-aria.error-correction-aria.model": "workspace:*",
-    "@platforma-sdk/ui-vue": "catalog:"
+    "@platforma-sdk/ui-vue": "catalog:",
+    "@platforma-takeda/takeda.error-correction-takeda.model": "workspace:*"
   },
   "devDependencies": {
     "@milaboratories/ts-builder": "catalog:",

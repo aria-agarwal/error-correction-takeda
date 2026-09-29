@@ -1,4 +1,4 @@
-import { platforma } from "@platforma-aria/platforma-aria.error-correction-aria.model";
+import { platforma } from "@platforma-takeda/takeda.error-correction-takeda.model";
 import { defineAppV3 } from "@platforma-sdk/ui-vue";
 import MainPage from "./pages/MainPage.vue";
 

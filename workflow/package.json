@@ -1,5 +1,5 @@
 {
-  "name": "@platforma-aria/platforma-aria.error-correction-aria.workflow",
+  "name": "@platforma-takeda/takeda.error-correction-takeda.workflow",
   "version": "1.0.0",
   "description": "Block Workflow",
   "type": "module",
@@ -9,7 +9,7 @@
     "format": "/usr/bin/env emacs --script ./format.el"
   },
   "dependencies": {
-    "@platforma-aria/platforma-aria.error-correction-aria.software": "workspace:*",
+    "@platforma-takeda/takeda.error-correction-takeda.software": "workspace:*",
     "@platforma-sdk/workflow-tengo": "catalog:"
   },
   "devDependencies": {

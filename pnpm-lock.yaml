@@ -75,18 +75,18 @@ importers:
 
   block:
     dependencies:
-      '@platforma-aria/platforma-aria.error-correction-aria.model':
-        specifier: workspace:*
-        version: link:../model
-      '@platforma-aria/platforma-aria.error-correction-aria.ui':
-        specifier: workspace:*
-        version: link:../ui
-      '@platforma-aria/platforma-aria.error-correction-aria.workflow':
-        specifier: workspace:*
-        version: link:../workflow
       '@platforma-sdk/model':
         specifier: 'catalog:'
         version: 1.64.0
+      '@platforma-takeda/takeda.error-correction-takeda.model':
+        specifier: workspace:*
+        version: link:../model
+      '@platforma-takeda/takeda.error-correction-takeda.ui':
+        specifier: workspace:*
+        version: link:../ui
+      '@platforma-takeda/takeda.error-correction-takeda.workflow':
+        specifier: workspace:*
+        version: link:../workflow
     devDependencies:
       '@platforma-sdk/block-tools':
         specifier: 'catalog:'
@@ -126,7 +126,7 @@ importers:
   test:
     dependencies:
       this-block:
-        specifier: workspace:@platforma-aria/platforma-aria.error-correction-aria@*
+        specifier: workspace:@platforma-takeda/takeda.error-correction-takeda@*
         version: link:../block
       typescript:
         specifier: '*'
@@ -144,12 +144,12 @@ importers:
       '@milaboratories/uikit':
         specifier: 2.11.9
         version: 2.11.9(typescript@5.6.3)
-      '@platforma-aria/platforma-aria.error-correction-aria.model':
-        specifier: workspace:*
-        version: link:../model
       '@platforma-sdk/ui-vue':
         specifier: 'catalog:'
         version: 1.64.0(@bytecodealliance/preview2-shim@0.17.8)(typescript@5.6.3)
+      '@platforma-takeda/takeda.error-correction-takeda.model':
+        specifier: workspace:*
+        version: link:../model
       typescript:
         specifier: '*'
         version: 5.6.3
@@ -172,12 +172,12 @@ importers:
 
   workflow:
     dependencies:
-      '@platforma-aria/platforma-aria.error-correction-aria.software':
-        specifier: workspace:*
-        version: link:../software
       '@platforma-sdk/workflow-tengo':
         specifier: 'catalog:'
         version: 5.13.1
+      '@platforma-takeda/takeda.error-correction-takeda.software':
+        specifier: workspace:*
+        version: link:../software
       vitest:
         specifier: '*'
         version: 4.0.18(@types/node@25.3.2)(lightningcss@1.32.0)(yaml@2.8.1)

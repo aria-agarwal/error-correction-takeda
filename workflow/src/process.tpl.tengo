@@ -8,7 +8,7 @@ xsv := import("@platforma-sdk/workflow-tengo:pframes.xsv")
 pt := import("@platforma-sdk/workflow-tengo:pt")
 maps := import("@platforma-sdk/workflow-tengo:maps")
 
-errorCorrectionSw := assets.importSoftware("@platforma-aria/platforma-aria.error-correction-aria.software:error-correction")
+errorCorrectionSw := assets.importSoftware("@platforma-takeda/takeda.error-correction-takeda.software:error-correction")
 
 self.awaitState("columns", "PColumnBundle")
 self.defineOutputs("pf", "pythonMessage")
