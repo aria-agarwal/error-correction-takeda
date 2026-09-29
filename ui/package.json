@@ -10,6 +10,7 @@
     "check": "ts-builder check --target browser"
   },
   "dependencies": {
+    "@milaboratories/uikit": "2.11.9",
     "@platforma-aria/platforma-aria.error-correction-aria.model": "workspace:*",
     "@platforma-sdk/ui-vue": "catalog:"
   },
